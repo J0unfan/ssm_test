@@ -1,0 +1,7 @@
+/heima_ssm_web/target/
+/*.iml
+/**/*.iml
+/heima_ssm_dao/target/
+/heima_ssm_domain/target/
+/heima_ssm_service/target/
+/**/target

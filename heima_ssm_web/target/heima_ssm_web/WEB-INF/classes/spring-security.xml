@@ -5,8 +5,9 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
           http://www.springframework.org/schema/beans/spring-beans.xsd
           http://www.springframework.org/schema/security
-          http://www.springframework.org/schema/security/spring-security.xsd">        
-          
+          http://www.springframework.org/schema/security/spring-security.xsd">
+
+	<security:global-method-security jsr250-annotations="enabled"/>
 	
 	<!-- 配置不过滤的资源（静态资源及登录相关） -->
 	<security:http pattern="/login.jsp" security="none"/>
